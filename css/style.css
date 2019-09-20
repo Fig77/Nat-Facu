@@ -1,9 +1,18 @@
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
 @media (max-width: 600px) {
     body {
         background-color: lightblue;
     }
 }
-
+body {
+  display: flex;
+}
 #welcome-section {
   height: 100vh;
 }
@@ -12,4 +21,15 @@
 #navbar{
 	position: fixed;
 	top:0;
+  background-color: #f44336;
+  height: 5vh;
+  width: 100vw;
+}
+
+#navbar a{
+  padding-left: 0.2em;
+  padding-right: : 0.2em;
+  padding-top: 10px;
+  text-decoration: none;
+  color: white;
 }
