@@ -25,14 +25,15 @@ body {
   background-color: #f44336;
   height: 5vh;
   width: 100vw;
-  
+
 }
 
 #navbar a{
-
-  padding-left: 0.5em;
-  padding-right: 0.3em;
+  float: right;
+  padding-left: 0.3em;
+  padding-right: 0.5em;
   padding-top: 0.5em;
   text-decoration: none;
   color: white;
+  font-size: 1.3em;
 }
